@@ -3,5 +3,5 @@
 ) ELSE (
   @SETLOCAL
   @SET PATHEXT=%PATHEXT:;.JS;=;%
-  node  "%~dp0\node_modules\atob\bin\atob.js" %*
+  node  "%~dp0\node_modules\atob\bin\atob.js" %* 
 )

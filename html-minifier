@@ -12,4 +12,4 @@ else
   node  "$basedir/node_modules/html-minifier/cli.js" "$@"
   ret=$?
 fi
-exit $ret
+exit $ret 

@@ -12,4 +12,4 @@ else
   node  "$basedir/node_modules/babylon/bin/babylon.js" "$@"
   ret=$?
 fi
-exit $ret
+exit $ret 

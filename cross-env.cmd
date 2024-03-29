@@ -3,5 +3,5 @@
 ) ELSE (
   @SETLOCAL
   @SET PATHEXT=%PATHEXT:;.JS;=;%
-  node  "%~dp0\node_modules\cross-env\dist\bin\cross-env.js" %*
+  node  "%~dp0\node_modules\cross-env\dist\bin\cross-env.js" %* 
 )
